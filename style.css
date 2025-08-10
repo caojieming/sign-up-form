@@ -1,0 +1,66 @@
+:root {
+    
+}
+
+@font-face {
+    font-family: norse;
+    src: url(./fonts/Norse-Bold.otf);
+}
+
+body {
+    margin: 0px;
+}
+
+* {
+    outline: 1px solid red;
+}
+
+
+#background {
+    position: relative;
+    max-width: min-content;
+    max-height: min-content;
+}
+#background-img {
+    /* max-width: 50%; */
+    /* height: auto; */
+    /* position: absolute; */
+    height: 100vh;
+}
+#background-title {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#background-logo {
+    /* position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    width: 30%;
+    height: auto;
+}
+#background-title-text {
+    font-size: 10vh;
+    color: white;
+    font-family: norse;
+    margin-left: 1vw;
+    /* vertically center */
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+#background-caption {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2vh;
+    color: white;
+}
+#background-caption > a {
+    color: white;
+}
+
+
